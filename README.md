@@ -1,4 +1,4 @@
-# Strategy Backtester
+# Trading Strategy Backtester
 
 A localhost trading strategy backtester. Runs entirely on your machine with free market data — no API keys needed.
 
