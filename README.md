@@ -1,14 +1,13 @@
 # Strategy Backtester
 
-A localhost trading strategy backtester with a TradingView-style UI. Runs entirely on your machine with free market data — no API keys needed.
+A localhost trading strategy backtester. Runs entirely on your machine with free market data — no API keys needed.
 
 ![Strategy Backtester](https://img.shields.io/badge/stack-FastAPI%20%2B%20React-blue) ![Data](https://img.shields.io/badge/data-yfinance%20(free)-green) ![Charts](https://img.shields.io/badge/charts-lightweight--charts%20v4-orange)
 
 ## Features
 
-- **Candlestick + Heikin Ashi** chart with 9 timeframes (1m → 1M)
+- **Candlestick + Heikin Ashi** chart with 9 timeframes (1min → 1month)
 - **Golden Cross + Fibonacci Retracement** strategy with full configurability
-- **Fibonacci lines** that appear only from the golden cross to the trade exit — no clutter
 - **S&P 500 batch mode** — run the strategy across all ~180 tickers in parallel and see aggregate results
 - **Quant metrics** — Sharpe, Sortino, Calmar, CAGR, max drawdown, recovery factor, expectancy, and more
 - **Strategy score (0–100)** — weighted ranking across win rate, profit factor, Sharpe, drawdown, and CAGR
